@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(225deg, #4682b4 25%, #f5deb3 95%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #f0fff0;
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px #778899;
+  padding: 60px;
+  -webkit-backdrop-filter: blur(200px);
+  backdrop-filter: blur(200px);
+  backdrop-filter: opacity(20%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 180px;
+  box-shadow: 6px 6px 6px #b0c4de;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.title p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400px;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #696969;
+  color: #F0FFFF;
+  border-radius: 100px;
+  border-s
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: linear-gradient(225deg, #4169e1 25%, #afeeee 85%);
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #b0c4de;
+}
+
+.projects-title {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projects-items {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projects-items a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.dark {
+  background: linear-gradient(225deg, #191970 25%, #696969 95%)
+}
+
+.dark .container {
+  background: linear-gradient(225deg, #708090 25%, #4682B4 95%);
+  color: #F0FFFF;
+}
+
+.dark .projects {
+  color: #000000;
+}
+
+.dark .tema button {
+  background: #F0FFFF;
+  color: #000000;
+}
