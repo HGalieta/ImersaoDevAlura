@@ -25,6 +25,16 @@ body {
   display: flex;
 }
 
+.perfil .contato {
+  flex-direction: column;
+}
+
+.links a, p{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
 .perfil-foto {
   border-radius: 400px;
   max-height: 180px;
